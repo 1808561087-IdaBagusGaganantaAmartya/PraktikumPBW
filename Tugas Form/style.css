@@ -1,0 +1,63 @@
+body {
+    background: -webkit-linear-gradient(bottom, #DCDCDC, #708090);
+    background-repeat: no-repeat;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    padding:10;
+    margin:0;
+    font-size: 15px;
+}
+ 
+ 
+.card {
+    background : lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    margin: 6rem auto 8.1rem auto;
+    width: 380px;
+}
+.card-content {
+    padding: 5px 44px;
+}
+.card-title {
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 110px 260px;
+    margin: 10px 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex input {
+    margin-right: 5px;
+}
+
+select {
+    width: 80px;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    grid-column: span 2;
+    border-radius: 30px;
+    color: black;
+    background-color: lightsteelblue;
+}
+
